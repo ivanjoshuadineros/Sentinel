@@ -1,0 +1,58 @@
+.parallax {
+  /* The image used */
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3),rgba(0, 0, 0,0.1)), url("../images/FlatHexagon.jpeg");
+
+  height: 45em;
+  overflow: hidden;
+
+  /* Parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar-scroll {
+  transition: top 0.3s;
+  top: -5em;
+  z-index: 2;
+}
+
+.img-border {
+  border: thick solid #81b1ca;
+}
+
+.primary-blue {
+  color: #81b1ca;
+}
+
+.bg-grey {
+  background-color: #f2f2f2;
+}
+
+.footer-bg{
+  background-color: #325D88;
+}
+
+.footer-bottom {
+    min-height: calc(100vh - 290px) !important;
+}
+
+.side-sticky{
+  top: 5em;
+  z-index: 1020;
+}
+
+.min-vh-50 {
+  min-height: 50vh !important;
+}
+
+.hover-pointer{
+  cursor: pointer;
+}
+
+.p-bottom-right{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
